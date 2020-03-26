@@ -1,0 +1,10 @@
+//Naive solution
+//time:O(n^2)
+//space:O(1)
+//use 2 loops 
+for (int i = 0; i < nums.length; ++i) {
+        for (int j = 0; j < i; ++j) {
+            if (nums[j] == nums[i]) return true;  
+        }
+    }
+    return false;
