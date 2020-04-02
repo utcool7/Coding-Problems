@@ -1,3 +1,6 @@
+// https://www.geeksforgeeks.org/majority-element/
+// Input : {3, 3, 4, 2, 4, 4, 2, 4, 4}
+// Output : 4
 //naive approach 
 // time: O(n^2)
 //space: O(1)
@@ -8,7 +11,7 @@ int majorityElement(int arr[],int n )
     for(int i =0;i<(n/2)+1;i++)
     {
         int count=0;
-        for(int j =0;j<n;j++)
+        for(int j =i;j<n;j++)
         {
             if(arr[i]==arr[j])
                count++;
