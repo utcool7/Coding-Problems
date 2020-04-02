@@ -1,3 +1,5 @@
+// print array in reverse order 
+//Eg. reverse -> esrever
 //time : O(n)
 // space : O(1)
 int main()
