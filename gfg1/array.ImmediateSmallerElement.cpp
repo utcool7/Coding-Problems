@@ -1,3 +1,6 @@
+// https://practice.geeksforgeeks.org/problems/immediate-smaller-element/0
+// If next adjacent element is smaller, print that element. If not, then print -1
+
 // time: O(n)
 //space : O(1)
 #include <bits/stdc++.h>
