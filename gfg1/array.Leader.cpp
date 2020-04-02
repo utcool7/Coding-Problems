@@ -1,3 +1,6 @@
+// https://www.geeksforgeeks.org/leaders-in-an-array/
+//element is leader if its greater than all the elements on its right side 
+// example in the array {16, 17, 4, 3, 5, 2}, leaders are 17, 5 and 2.
 //naive approach 
 // time : O(n^2)
 // space : O(1)
