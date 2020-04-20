@@ -1,3 +1,4 @@
+//naive solution 
 //linear search 
 //time: O(n)
 //space:O(1)
