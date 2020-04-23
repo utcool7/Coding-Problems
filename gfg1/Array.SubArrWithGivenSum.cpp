@@ -1,4 +1,4 @@
-// naive solution 
+// naive solution or brute force solution 
 // time : O(n^2)
 // space : O(1)
 
