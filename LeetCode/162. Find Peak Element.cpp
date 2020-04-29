@@ -1,6 +1,6 @@
 
-//time :O(logn)
-//space : O(1)
+//Time :O(logn)
+//Space : O(1)
 class Solution {
 public:
     int findPeakElement(vector<int>& nums) {
