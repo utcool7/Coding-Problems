@@ -1,0 +1,23 @@
+//time : O(n+m)
+//space :O(1)
+class Solution {
+public:
+    bool searchMatrix(vector<vector<int>>& matrix, int target) {
+        
+        if(matrix.size() == 0)
+            return false;
+        int n = matrix.size()  , m = matrix[0].size() ;
+        int i = 0 , j = m - 1;
+        while(i>=0 && i<n && j>=0 && j<m)
+        {
+            if(matrix[i][j] == target)
+                return true;
+            else if(matrix[i][j] > target)
+                j--;
+            else 
+                i++;
+            
+        }
+        return false;
+    }
+};
