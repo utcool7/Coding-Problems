@@ -1,6 +1,6 @@
 // https://practice.geeksforgeeks.org/problems/count-leaves-in-binary-tree/1
 
-// time : O(log n)
+// time : O(n)
 // space : O(n)
 
 //User function Template for C++
