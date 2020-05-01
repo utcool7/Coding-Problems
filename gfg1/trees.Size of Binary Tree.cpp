@@ -1,6 +1,6 @@
 //https://practice.geeksforgeeks.org/problems/size-of-binary-tree/1
 
-//time : O(logn)
+//time : O(n)
 //space :O(1)
 
 /* Tree node structure  used in the program
