@@ -1,6 +1,6 @@
 //https://practice.geeksforgeeks.org/problems/k-distance-from-root/1
 
-//time : O(logn)
+//time : O(n)
 //space :O(n)
 
 /* A binary tree node has data, pointer to left child
