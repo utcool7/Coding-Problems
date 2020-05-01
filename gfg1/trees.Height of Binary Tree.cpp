@@ -1,6 +1,6 @@
 // https://practice.geeksforgeeks.org/problems/height-of-binary-tree/1
 
-//time : O(logn)
+//time : O(n)
 //space : O(n)
 struct Node
 {
