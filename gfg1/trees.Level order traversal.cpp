@@ -1,6 +1,6 @@
 //https://practice.geeksforgeeks.org/problems/level-order-traversal/1/
 
-//time : O(h*logn)
+//time : O(n^2)
 //space : O(n)
 struct Node
 {
