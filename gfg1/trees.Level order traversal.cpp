@@ -46,3 +46,31 @@ void levelOrder(Node* node)
   }
   
 }
+
+
+
+
+
+//time : O(n)
+//space :O(n)
+
+
+//You are required to complete this method
+void levelOrder(Node* node)
+{
+  //Your code here
+  queue <Node*> q;
+  q.push(node);
+  while(!q.empty())
+  {
+      Node* dfs = q.front();
+      q.pop();
+      cout<<dfs->data<<" ";
+      if(dfs->left != NULL)
+         q.push(dfs->left);
+      if(dfs->right != NULL)
+         q.push(dfs->right);   
+      
+  }
+  return ;
+}
