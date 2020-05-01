@@ -1,6 +1,6 @@
 //https://practice.geeksforgeeks.org/problems/odd-even-level-difference/1
 
-time : O(log n)
+time : O(n)
 space : O(n)
 
 /* The Node structure is
