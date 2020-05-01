@@ -1,6 +1,6 @@
 // https://practice.geeksforgeeks.org/problems/sum-of-binary-tree/1
 
-time : O(log n)
+time : O(n)
 space :O(n)
 
 /*Structure of the node of the binary tree
