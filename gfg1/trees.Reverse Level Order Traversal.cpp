@@ -40,3 +40,36 @@ void reversePrint(Node *root)
         level(root,i);
     }
 }
+
+
+
+//time :O(n)
+//space : O(n)
+
+void reversePrint(Node *root)
+{
+    //Your code here
+    queue <Node*> q;
+    stack <Node* > s;
+    q.push(root);
+    while(!q.empty())
+    {
+        Node* deeper = q.front();
+        q.pop();
+        s.push(deeper);
+        if(deeper->right != NULL)
+        {
+            q.push(deeper->right);
+        }
+        if(deeper->left != NULL)
+        {
+            q.push(deeper -> left);
+        }
+        
+    }
+    while(!s.empty())
+    {
+        cout<<s.top()->data<<" ";
+        s.pop();
+    }
+}
