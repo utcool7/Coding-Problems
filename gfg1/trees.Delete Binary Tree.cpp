@@ -1,5 +1,5 @@
-//time : O(n)
-//space : O(n)
+//time :O(n)
+//space:O(n)
 
 void deleteTree(Node *root)
 {
