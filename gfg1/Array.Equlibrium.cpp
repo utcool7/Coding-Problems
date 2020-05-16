@@ -1,7 +1,7 @@
 //https://practice.geeksforgeeks.org/problems/equilibrium-point/0/?track=md-arrays&batchId=144
 
 // time: O(n)
-//space: O(n)
+// space: O(n)
 
 #include <bits/stdc++.h>
 using namespace std;
