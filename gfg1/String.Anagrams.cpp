@@ -1,7 +1,7 @@
 // https://practice.geeksforgeeks.org/problems/anagram/0/?track=md-string&batchId=144
 
-//time : O(nlogn)
-//space: O(1)
+// time : O(nlogn)
+// space: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
