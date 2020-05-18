@@ -2,7 +2,7 @@
 // If next adjacent element is smaller, print that element. If not, then print -1
 
 // time: O(n)
-//space : O(1)
+// space : O(1)
 #include <bits/stdc++.h>
 using namespace std;
 int main()
