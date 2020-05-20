@@ -1,7 +1,7 @@
 //https://practice.geeksforgeeks.org/problems/mirror-tree/1
 
 // time : O(n)
-//space : O(n)
+// space : O(n)
 
 /* Should convert tree to its mirror */
 void mirror(Node* node) 
