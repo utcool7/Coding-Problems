@@ -1,5 +1,5 @@
-//time : O(n)
-//space : O(1)
+// time : O(n)
+// space : O(1)
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
