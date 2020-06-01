@@ -1,7 +1,7 @@
 // Naive-solution
 
-//time : O(n+m)
-//space : O(n+m)
+// time : O(n+m)
+// space : O(n+m)
 
 class Solution {
 public:
