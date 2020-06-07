@@ -1,4 +1,4 @@
-//https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem/0
+// https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem/0
 
 // time : O(n^2)
 // space : O(n*w)
